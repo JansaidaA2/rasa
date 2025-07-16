@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.rasa/
+models/
+*.tar.gz
+*.db
+*.sqlite3
+*.log
+tests/
+frontend/node_modules/

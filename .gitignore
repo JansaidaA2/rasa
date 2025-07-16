@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+venv/
+ENV/
+env/
+*.env
+
+# Rasa
+.rasa/
+models/
+*.tar.gz
+
+# VSCode
+.vscode/
+
+# Frontend
+frontend/node_modules/
