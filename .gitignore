@@ -15,8 +15,8 @@ env/
 
 # Rasa
 .rasa/
-models/
-*.tar.gz
+#models/
+#*.tar.gz
 
 # VSCode
 .vscode/
