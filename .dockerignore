@@ -5,8 +5,8 @@ __pycache__/
 env/
 venv/
 .rasa/
-models/
-*.tar.gz
+#models/
+#*.tar.gz
 *.db
 *.sqlite3
 *.log
