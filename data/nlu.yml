@@ -165,184 +165,230 @@ nlu:
     - नमस्ते
     - 你好
 
-- intent: faq/what_company_does
+- intent: company_phone
   examples: |
-    - What does your company do?
-    - Can you tell me about your company?
-
-- intent: faq/company_location
-  examples: |
-    - Where is your company located?
-    - Where are your offices located?
-
-- intent: faq/company_focus
-  examples: |
-    - What is the main focus of your company?
-
-- intent: faq/company_founded
-  examples: |
-    - How long has your company been in business?
-    - When was your company founded?
-
-- intent: faq/company_founder
-  examples: |
-    - Who founded your company?
-
-- intent: faq/company_size
-  examples: |
-    - How big is your company?
-
-- intent: faq/global_operation
-  examples: |
-    - Do you operate globally?
-
-- intent: faq/industries_served
-  examples: |
-    - Which industries do you serve?
-
-- intent: faq/company_hiring
-  examples: |
-    - Is your company hiring right now?
-
-- intent: faq/apply_job
-  examples: |
-    - Can I apply for a job at your company?
-
-- intent: faq/support_contact
-  examples: |
-    - How can I contact your support team?
     - Do you have a phone number for support?
+    - Can I get a phone number for support?
+    - Is there a contact number for support?
 
-- intent: faq/regional_offices
+- intent: regional_offices
   examples: |
     - Do you have regional offices?
+    - Are there offices in other regions?
+    - Do you have any branch offices?
 
-- intent: faq/company_vision
+- intent: company_vision
   examples: |
     - What is your vision?
-    - What is your mission statement?
+    - Tell me your company vision
+    - What's the vision of your company?
 
-- intent: faq/top_clients
+- intent: company_mission
+  examples: |
+    - What is your mission statement?
+    - Can you share your mission?
+    - What's your company's mission?
+
+- intent: company_clients
   examples: |
     - Who are your top clients?
+    - Can you list your top clients?
+    - Which clients do you work with?
 
-- intent: faq/company_unique
+- intent: company_unique
   examples: |
     - What makes your company unique?
+    - Why is your company different?
+    - What is special about your company?
 
-- intent: faq/internships
+- intent: internships
   examples: |
     - Do you provide internships?
+    - Can I apply for an internship?
+    - Do you offer internships?
 
-- intent: faq/news_updates
+- intent: company_news
   examples: |
     - How do I get news about your company?
+    - Where can I read news about your company?
+    - How do I stay updated about your company?
 
-- intent: faq/newsletter
+- intent: newsletter
   examples: |
     - Do you have a newsletter?
+    - Can I subscribe to your newsletter?
+    - Is there a company newsletter?
 
-- intent: faq/company_type
+- intent: public_private
   examples: |
     - Are you a public or private company?
+    - Is your company public or private?
+    - What type of company are you?
 
-- intent: faq/partnership
+- intent: founded_year
+  examples: |
+    - When was your company founded?
+    - What year was your company established?
+    - Since when are you operating?
+
+- intent: partnerships
   examples: |
     - Do you partner with other companies?
-    - How can I request a partnership?
+    - Do you collaborate with other companies?
+    - Are you in partnerships with companies?
 
-- intent: faq/sponsorships
+- intent: sponsorships
   examples: |
     - Do you offer sponsorships?
+    - Can I get sponsorship from you?
+    - Does your company provide sponsorships?
 
-- intent: faq/support_languages
+- intent: support_languages
   examples: |
     - What languages does your support team speak?
+    - Which language does your support team use?
+    - In what languages is support available?
 
-- intent: faq/iso_certified
+- intent: iso_certified
   examples: |
     - Is your company ISO certified?
+    - Do you have ISO certification?
+    - Are you ISO certified?
 
-- intent: faq/sme_support
+- intent: support_small_business
   examples: |
     - Do you support small businesses?
+    - Can small businesses get your services?
+    - Do you help small businesses?
 
-- intent: faq/website
+- intent: official_website
   examples: |
     - What is your official website?
+    - Can you give me your website?
+    - What's the link to your website?
 
-- intent: faq/office_visit
+- intent: office_visit
   examples: |
     - Can I schedule a visit to your office?
+    - Is it possible to visit your office?
+    - Can I come to your office?
 
-- intent: faq/csr
+- intent: csr_program
   examples: |
     - Do you have a CSR program?
+    - Does your company run CSR initiatives?
+    - Are you involved in CSR activities?
 
-- intent: faq/invest
+- intent: invest
   examples: |
     - Can I invest in your company?
+    - Is investment possible in your company?
+    - Do you accept investors?
 
-- intent: faq/ngos
+- intent: ngos
   examples: |
     - Do you work with NGOs?
+    - Are you associated with NGOs?
+    - Do you collaborate with NGOs?
 
-- intent: faq/company_leader
+- intent: company_leader
   examples: |
     - Who leads your company?
+    - Who is the head of your company?
+    - Who runs your company?
 
-- intent: faq/case_studies
+- intent: case_studies
   examples: |
     - Do you provide customer case studies?
+    - Can I see your case studies?
+    - Do you share customer case studies?
 
-- intent: faq/tech_conferences
+- intent: tech_conferences
   examples: |
     - Do you attend tech conferences?
+    - Does your company attend conferences?
+    - Are you part of tech conferences?
 
-- intent: faq/company_brochure
+- intent: office_location
+  examples: |
+    - Where are your offices located?
+    - Where is your office?
+    - What is your office location?
+
+- intent: brochure
   examples: |
     - Can I get a company brochure?
+    - Do you have a brochure?
+    - Where can I download your brochure?
 
-- intent: faq/press_kit
+- intent: press_kit
   examples: |
     - Do you have a press kit?
+    - Can I see your press kit?
+    - Is there a press kit available?
 
-- intent: faq/awards
+- intent: awards
   examples: |
     - Do you have awards or recognition?
+    - Has your company won awards?
+    - Any recognition for your company?
 
-- intent: faq/demo_sessions
+- intent: demo_sessions
   examples: |
     - Do you provide demo sessions?
+    - Can I get a demo?
+    - Do you offer demos?
 
-- intent: faq/education_support
+- intent: educational_support
   examples: |
     - Do you support educational institutions?
+    - Do you work with universities?
+    - Do you support schools or colleges?
 
-- intent: faq/company_values
+- intent: company_values
   examples: |
     - What are your company values?
+    - Can you tell me your values?
+    - What values does your company follow?
 
-- intent: faq/blogs
+- intent: blogs
   examples: |
     - Do you provide technical blogs?
+    - Can I read your technical blogs?
+    - Do you have blogs?
 
-- intent: faq/social_media
+- intent: partnership_request
+  examples: |
+    - How can I request a partnership?
+    - Can I request a partnership?
+    - I want to partner with you, how?
+
+- intent: social_media
   examples: |
     - Are you on social media?
+    - Do you have social media accounts?
+    - Can I follow you on social media?
 
-- intent: faq/press_releases
+- intent: press_releases
   examples: |
     - Do you provide press releases?
+    - Can I get press releases?
+    - Are there press releases from your company?
 
-- intent: faq/affiliate
+- intent: affiliate_program
   examples: |
     - Can I join your affiliate program?
+    - Do you have an affiliate program?
+    - Is there an affiliate program?
 
-- intent: faq/clients_count
+- intent: clients_served
   examples: |
     - How many clients do you serve?
+    - What is your client count?
+    - How many clients do you have?
 
-- intent: faq/testimonials
+- intent: testimonials
   examples: |
     - Do you offer customer testimonials?
+    - Can I read customer testimonials?
+    - Do you provide testimonials?
