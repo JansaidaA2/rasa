@@ -4,30 +4,30 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
 
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
 
 - story: sad path 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
 
 - story: user asks company info
   steps:
@@ -73,3 +73,193 @@ stories:
   steps:
     - intent: data_policy
     - action: utter_data_policy
+
+- story: user asks for phone number
+  steps:
+    - intent: company_phone
+    - action: utter_company_phone
+
+- story: user asks about regional offices
+  steps:
+    - intent: regional_offices
+    - action: utter_regional_offices
+
+- story: user asks about vision
+  steps:
+    - intent: company_vision
+    - action: utter_company_vision
+
+- story: user asks about mission
+  steps:
+    - intent: company_mission
+    - action: utter_company_mission
+
+- story: user asks about clients
+  steps:
+    - intent: company_clients
+    - action: utter_company_clients
+
+- story: user asks about uniqueness
+  steps:
+    - intent: company_unique
+    - action: utter_company_unique
+
+- story: user asks about internships
+  steps:
+    - intent: internships
+    - action: utter_internships
+
+- story: user asks for company news
+  steps:
+    - intent: company_news
+    - action: utter_company_news
+
+- story: user asks for newsletter
+  steps:
+    - intent: newsletter
+    - action: utter_newsletter
+
+- story: user asks if public or private
+  steps:
+    - intent: public_private
+    - action: utter_public_private
+
+- story: user asks founded year
+  steps:
+    - intent: founded_year
+    - action: utter_founded_year
+
+- story: user asks about partnerships
+  steps:
+    - intent: partnerships
+    - action: utter_partnerships
+
+- story: user asks about sponsorships
+  steps:
+    - intent: sponsorships
+    - action: utter_sponsorships
+
+- story: user asks about supported languages
+  steps:
+    - intent: support_languages
+    - action: utter_support_languages
+
+- story: user asks about ISO certification
+  steps:
+    - intent: iso_certified
+    - action: utter_iso_certified
+
+- story: user asks about small business support
+  steps:
+    - intent: support_small_business
+    - action: utter_support_small_business
+
+- story: user asks for official website
+  steps:
+    - intent: official_website
+    - action: utter_official_website
+
+- story: user asks about office visit
+  steps:
+    - intent: office_visit
+    - action: utter_office_visit
+
+- story: user asks about CSR program
+  steps:
+    - intent: csr_program
+    - action: utter_csr_program
+
+- story: user asks about investments
+  steps:
+    - intent: invest
+    - action: utter_invest
+
+- story: user asks about NGOs
+  steps:
+    - intent: ngos
+    - action: utter_ngos
+
+- story: user asks about leader
+  steps:
+    - intent: company_leader
+    - action: utter_company_leader
+
+- story: user asks about case studies
+  steps:
+    - intent: case_studies
+    - action: utter_case_studies
+
+- story: user asks about conferences
+  steps:
+    - intent: tech_conferences
+    - action: utter_tech_conferences
+
+- story: user asks for brochure
+  steps:
+    - intent: brochure
+    - action: utter_brochure
+
+- story: user asks for press kit
+  steps:
+    - intent: press_kit
+    - action: utter_press_kit
+
+- story: user asks about awards
+  steps:
+    - intent: awards
+    - action: utter_awards
+
+- story: user asks for demo sessions
+  steps:
+    - intent: demo_sessions
+    - action: utter_demo_sessions
+
+- story: user asks about educational support
+  steps:
+    - intent: educational_support
+    - action: utter_educational_support
+
+- story: user asks about company values
+  steps:
+    - intent: company_values
+    - action: utter_company_values
+
+- story: user asks about blogs
+  steps:
+    - intent: blogs
+    - action: utter_blogs
+
+- story: user asks for partnership request
+  steps:
+    - intent: partnership_request
+    - action: utter_partnership_request
+
+- story: user asks about social media
+  steps:
+    - intent: social_media
+    - action: utter_social_media
+
+- story: user asks about press releases
+  steps:
+    - intent: press_releases
+    - action: utter_press_releases
+
+- story: user asks about affiliate program
+  steps:
+    - intent: affiliate_program
+    - action: utter_affiliate_program
+
+- story: user asks about clients served
+  steps:
+    - intent: clients_served
+    - action: utter_clients_served
+
+- story: user asks about testimonials
+  steps:
+    - intent: testimonials
+    - action: utter_testimonials
+
+- story: user sends a foreign greeting
+  steps:
+    - intent: translate_intent
+    - action: utter_greet

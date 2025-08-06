@@ -21,7 +21,7 @@ nlu:
   examples: |
     - cu
     - good by
-    - cee you later
+    - see you later
     - good night
     - bye
     - goodbye
@@ -62,9 +62,8 @@ nlu:
     - I am going to save the world
     - super stoked
     - extremely good
-    - so so perfect
-    - so good
     - so perfect
+    - so good
 
 - intent: mood_unhappy
   examples: |
@@ -79,8 +78,7 @@ nlu:
     - unhappy
     - not good
     - not very good
-    - extremly sad
-    - so saad
+    - extremely sad
     - so sad
 
 - intent: bot_challenge
@@ -128,7 +126,8 @@ nlu:
     - What's your company location?
     - Where is UFS Networks located?
     - Tell me your office address
-    - company address please
+    - Company address please
+    - Where are your offices located?
 
 - intent: working_hours
   examples: |
@@ -164,6 +163,12 @@ nlu:
     - bonjour
     - नमस्ते
     - 你好
+    - salut
+    - ciao
+    - hallo
+    - привет
+    - مرحبا
+    - konnichiwa
 
 - intent: company_phone
   examples: |
@@ -308,12 +313,6 @@ nlu:
     - Do you attend tech conferences?
     - Does your company attend conferences?
     - Are you part of tech conferences?
-
-- intent: office_location
-  examples: |
-    - Where are your offices located?
-    - Where is your office?
-    - What is your office location?
 
 - intent: brochure
   examples: |
