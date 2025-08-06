@@ -57,7 +57,222 @@ rules:
     - intent: data_policy
     - action: utter_data_policy
 
-- rule: Respond to all FAQs
+- rule: Respond to FAQ
   steps:
-  - intent: faq
-  - action: utter_faq
+    - intent: faq/what_company_does
+    - action: utter_faq/what_company_does
+
+- rule: Respond to Company Location
+  steps:
+    - intent: faq/company_location
+    - action: utter_faq/company_location
+
+- rule: Respond to Company Focus
+  steps:
+    - intent: faq/company_focus
+    - action: utter_faq/company_focus
+
+- rule: Respond to Company Founded
+  steps:
+    - intent: faq/company_founded
+    - action: utter_faq/company_founded
+
+- rule: Respond to Company Founder
+  steps:
+    - intent: faq/company_founder
+    - action: utter_faq/company_founder
+
+- rule: Respond to Company Size
+  steps:
+    - intent: faq/company_size
+    - action: utter_faq/company_size
+
+- rule: Respond to Global Operation
+  steps:
+    - intent: faq/global_operation
+    - action: utter_faq/global_operation
+
+- rule: Respond to Industries Served
+  steps:
+    - intent: faq/industries_served
+    - action: utter_faq/industries_served
+
+- rule: Respond to Hiring
+  steps:
+    - intent: faq/company_hiring
+    - action: utter_faq/company_hiring
+
+- rule: Respond to Job Application
+  steps:
+    - intent: faq/apply_job
+    - action: utter_faq/apply_job
+
+- rule: Respond to Support Contact
+  steps:
+    - intent: faq/support_contact
+    - action: utter_faq/support_contact
+
+- rule: Respond to Regional Offices
+  steps:
+    - intent: faq/regional_offices
+    - action: utter_faq/regional_offices
+
+- rule: Respond to Company Vision
+  steps:
+    - intent: faq/company_vision
+    - action: utter_faq/company_vision
+
+- rule: Respond to Top Clients
+  steps:
+    - intent: faq/top_clients
+    - action: utter_faq/top_clients
+
+- rule: Respond to Company Uniqueness
+  steps:
+    - intent: faq/company_unique
+    - action: utter_faq/company_unique
+
+- rule: Respond to Internships
+  steps:
+    - intent: faq/internships
+    - action: utter_faq/internships
+
+- rule: Respond to News Updates
+  steps:
+    - intent: faq/news_updates
+    - action: utter_faq/news_updates
+
+- rule: Respond to Newsletter
+  steps:
+    - intent: faq/newsletter
+    - action: utter_faq/newsletter
+
+- rule: Respond to Company Type
+  steps:
+    - intent: faq/company_type
+    - action: utter_faq/company_type
+
+- rule: Respond to Partnership
+  steps:
+    - intent: faq/partnership
+    - action: utter_faq/partnership
+
+- rule: Respond to Sponsorships
+  steps:
+    - intent: faq/sponsorships
+    - action: utter_faq/sponsorships
+
+- rule: Respond to Support Languages
+  steps:
+    - intent: faq/support_languages
+    - action: utter_faq/support_languages
+
+- rule: Respond to ISO Certification
+  steps:
+    - intent: faq/iso_certified
+    - action: utter_faq/iso_certified
+
+- rule: Respond to SME Support
+  steps:
+    - intent: faq/sme_support
+    - action: utter_faq/sme_support
+
+- rule: Respond to Website
+  steps:
+    - intent: faq/website
+    - action: utter_faq/website
+
+- rule: Respond to Office Visit
+  steps:
+    - intent: faq/office_visit
+    - action: utter_faq/office_visit
+
+- rule: Respond to CSR
+  steps:
+    - intent: faq/csr
+    - action: utter_faq/csr
+
+- rule: Respond to Investment
+  steps:
+    - intent: faq/invest
+    - action: utter_faq/invest
+
+- rule: Respond to NGOs
+  steps:
+    - intent: faq/ngos
+    - action: utter_faq/ngos
+
+- rule: Respond to Company Leader
+  steps:
+    - intent: faq/company_leader
+    - action: utter_faq/company_leader
+
+- rule: Respond to Case Studies
+  steps:
+    - intent: faq/case_studies
+    - action: utter_faq/case_studies
+
+- rule: Respond to Tech Conferences
+  steps:
+    - intent: faq/tech_conferences
+    - action: utter_faq/tech_conferences
+
+- rule: Respond to Company Brochure
+  steps:
+    - intent: faq/company_brochure
+    - action: utter_faq/company_brochure
+
+- rule: Respond to Press Kit
+  steps:
+    - intent: faq/press_kit
+    - action: utter_faq/press_kit
+
+- rule: Respond to Awards
+  steps:
+    - intent: faq/awards
+    - action: utter_faq/awards
+
+- rule: Respond to Demo Sessions
+  steps:
+    - intent: faq/demo_sessions
+    - action: utter_faq/demo_sessions
+
+- rule: Respond to Education Support
+  steps:
+    - intent: faq/education_support
+    - action: utter_faq/education_support
+
+- rule: Respond to Company Values
+  steps:
+    - intent: faq/company_values
+    - action: utter_faq/company_values
+
+- rule: Respond to Blogs
+  steps:
+    - intent: faq/blogs
+    - action: utter_faq/blogs
+
+- rule: Respond to Social Media
+  steps:
+    - intent: faq/social_media
+    - action: utter_faq/social_media
+
+- rule: Respond to Press Releases
+  steps:
+    - intent: faq/press_releases
+    - action: utter_faq/press_releases
+
+- rule: Respond to Affiliate Program
+  steps:
+    - intent: faq/affiliate
+    - action: utter_faq/affiliate
+
+- rule: Respond to Client Count
+  steps:
+    - intent: faq/clients_count
+    - action: utter_faq/clients_count
+
+- rule: Respond to Testimonials
+  steps:
+    - intent: faq/testimonials
+    - action: utter_faq/testimonials
