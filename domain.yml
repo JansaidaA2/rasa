@@ -17,6 +17,51 @@ intents:
   - contact_info
   - industries
   - data_policy 
+  - translate_intent 
+  - faq/what_company_does
+  - faq/company_location
+  - faq/company_focus
+  - faq/company_founded
+  - faq/company_founder
+  - faq/company_size
+  - faq/global_operation
+  - faq/industries_served
+  - faq/company_hiring
+  - faq/apply_job
+  - faq/support_contact
+  - faq/regional_offices
+  - faq/company_vision
+  - faq/top_clients
+  - faq/company_unique
+  - faq/internships
+  - faq/news_updates
+  - faq/newsletter
+  - faq/company_type
+  - faq/partnership
+  - faq/sponsorships
+  - faq/support_languages
+  - faq/iso_certified
+  - faq/sme_support
+  - faq/website
+  - faq/office_visit
+  - faq/csr
+  - faq/invest
+  - faq/ngos
+  - faq/company_leader
+  - faq/case_studies
+  - faq/tech_conferences
+  - faq/company_brochure
+  - faq/press_kit
+  - faq/awards
+  - faq/demo_sessions
+  - faq/education_support
+  - faq/company_values
+  - faq/blogs
+  - faq/social_media
+  - faq/press_releases
+  - faq/affiliate
+  - faq/clients_count
+  - faq/testimonials
 
 responses:
   utter_greet:
@@ -114,6 +159,138 @@ responses:
         🔐 Your privacy matters to us.  
         UFS Networks follows best practices in data security and compliance.  
         Read our policy here: [Privacy Policy](https://www.ufsnetworks.com/privacy-policy)      
+
+  utter_faq/what_company_does:
+    - text: Unified Consultancy Services (UFS) is a next-gen tech and consulting firm driving digital transformation.
+
+  utter_faq/company_location:
+    - text: Our company is located in Delhi NCR, India.
+
+  utter_faq/company_focus:
+    - text: We focus on consulting, software development, and AI-powered enterprise solutions.
+
+  utter_faq/company_founded:
+    - text: We were founded in 2012 and have been in business for over 13 years.
+
+  utter_faq/company_founder:
+    - text: Our founder is Mr. Shibli.
+
+  utter_faq/company_size:
+    - text: We are a small-to-medium enterprise (SME).
+
+  utter_faq/global_operation:
+    - text: Yes, we operate globally.
+
+  utter_faq/industries_served:
+    - text: We serve Technical HR, Business Consulting, Education, and IT sectors.
+
+  utter_faq/company_hiring:
+    - text: Yes, we are currently hiring!
+
+  utter_faq/apply_job:
+    - text: Yes, please apply at https://ufsnetworks.com/carrier
+
+  utter_faq/support_contact:
+    - text: You may contact us at info@ufsnetworks.com
+
+  utter_faq/regional_offices:
+    - text: We currently do not have regional offices.
+
+  utter_faq/company_vision:
+    - text: Our vision is to be a next-generation technology and consulting company.
+
+  utter_faq/top_clients:
+    - text: Our top clients include Texora, ADP, Fiserv, Acqueon, Servion, and TerraEdge Soft.
+
+  utter_faq/company_unique:
+    - text: We are unique for our Technical Consulting Services approach.
+
+  utter_faq/internships:
+    - text: Yes, we do offer internships.
+
+  utter_faq/news_updates:
+    - text: You can get updates on our website
+
+  utter_faq/newsletter:
+    - text: Yes, we do have a newsletter.
+
+  utter_faq/company_type:
+    - text: We are a Private Limited Company.
+
+  utter_faq/partnership:
+    - text: Please reach out to us at info@ufsnetworks.com for partnership opportunities.
+
+  utter_faq/sponsorships:
+    - text: Yes, we offer sponsorships.
+
+  utter_faq/support_languages:
+    - text: Our support team speaks English.
+
+  utter_faq/iso_certified:
+    - text: Currently, we are not ISO certified.
+
+  utter_faq/sme_support:
+    - text: Yes, we support small and medium businesses.
+
+  utter_faq/website:
+    - text: You can visit our official site at https://ufsnetworks.com
+
+  utter_faq/office_visit:
+    - text: Currently, we do not offer office visits.
+
+  utter_faq/csr:
+    - text: Yes, we have a CSR program in place.
+
+  utter_faq/invest:
+    - text: Yes, you can invest in our company.
+
+  utter_faq/ngos:
+    - text: Yes, we work with NGOs as part of our outreach programs.
+
+  utter_faq/company_leader:
+    - text: The company is led by our Director.
+
+  utter_faq/case_studies:
+    - text: Yes, we provide case studies on request.
+
+  utter_faq/tech_conferences:
+    - text: Yes, we actively attend tech conferences.
+
+  utter_faq/company_brochure:
+    - text: Yes, you can download it here
+
+  utter_faq/press_kit:
+    - text: Currently, we do not have a press kit.
+
+  utter_faq/awards:
+    - text: We currently do not have award listings available.
+
+  utter_faq/demo_sessions:
+    - text: Yes, we offer product demo sessions.
+
+  utter_faq/education_support:
+    - text: Yes, we support educational institutions.
+
+  utter_faq/company_values:
+    - text: Our core values align with our 10M philosophy.
+
+  utter_faq/blogs:
+    - text: Yes, we publish technical blogs regularly.
+
+  utter_faq/social_media:
+    - text: Yes, you can find us on all major social platforms.
+
+  utter_faq/press_releases:
+    - text: We do not publish regular press releases currently.
+
+  utter_faq/affiliate:
+    - text: Yes, we do have an affiliate program.
+
+  utter_faq/clients_count:
+    - text: We serve more than 25 clients across the globe.
+
+  utter_faq/testimonials:
+    - text: Yes, customer testimonials are available upon request.
 
 session_config:
   session_expiration_time: 60

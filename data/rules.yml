@@ -56,3 +56,8 @@ rules:
   steps:
     - intent: data_policy
     - action: utter_data_policy
+
+- rule: Respond to all FAQs
+  steps:
+  - intent: faq
+  - action: utter_faq

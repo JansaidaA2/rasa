@@ -157,3 +157,192 @@ nlu:
     - How do you handle customer data?
     - Tell me about your security measures
     - Is my data safe with you?
+
+- intent: translate_intent
+  examples: |
+    - hola
+    - bonjour
+    - नमस्ते
+    - 你好
+
+- intent: faq/what_company_does
+  examples: |
+    - What does your company do?
+    - Can you tell me about your company?
+
+- intent: faq/company_location
+  examples: |
+    - Where is your company located?
+    - Where are your offices located?
+
+- intent: faq/company_focus
+  examples: |
+    - What is the main focus of your company?
+
+- intent: faq/company_founded
+  examples: |
+    - How long has your company been in business?
+    - When was your company founded?
+
+- intent: faq/company_founder
+  examples: |
+    - Who founded your company?
+
+- intent: faq/company_size
+  examples: |
+    - How big is your company?
+
+- intent: faq/global_operation
+  examples: |
+    - Do you operate globally?
+
+- intent: faq/industries_served
+  examples: |
+    - Which industries do you serve?
+
+- intent: faq/company_hiring
+  examples: |
+    - Is your company hiring right now?
+
+- intent: faq/apply_job
+  examples: |
+    - Can I apply for a job at your company?
+
+- intent: faq/support_contact
+  examples: |
+    - How can I contact your support team?
+    - Do you have a phone number for support?
+
+- intent: faq/regional_offices
+  examples: |
+    - Do you have regional offices?
+
+- intent: faq/company_vision
+  examples: |
+    - What is your vision?
+    - What is your mission statement?
+
+- intent: faq/top_clients
+  examples: |
+    - Who are your top clients?
+
+- intent: faq/company_unique
+  examples: |
+    - What makes your company unique?
+
+- intent: faq/internships
+  examples: |
+    - Do you provide internships?
+
+- intent: faq/news_updates
+  examples: |
+    - How do I get news about your company?
+
+- intent: faq/newsletter
+  examples: |
+    - Do you have a newsletter?
+
+- intent: faq/company_type
+  examples: |
+    - Are you a public or private company?
+
+- intent: faq/partnership
+  examples: |
+    - Do you partner with other companies?
+    - How can I request a partnership?
+
+- intent: faq/sponsorships
+  examples: |
+    - Do you offer sponsorships?
+
+- intent: faq/support_languages
+  examples: |
+    - What languages does your support team speak?
+
+- intent: faq/iso_certified
+  examples: |
+    - Is your company ISO certified?
+
+- intent: faq/sme_support
+  examples: |
+    - Do you support small businesses?
+
+- intent: faq/website
+  examples: |
+    - What is your official website?
+
+- intent: faq/office_visit
+  examples: |
+    - Can I schedule a visit to your office?
+
+- intent: faq/csr
+  examples: |
+    - Do you have a CSR program?
+
+- intent: faq/invest
+  examples: |
+    - Can I invest in your company?
+
+- intent: faq/ngos
+  examples: |
+    - Do you work with NGOs?
+
+- intent: faq/company_leader
+  examples: |
+    - Who leads your company?
+
+- intent: faq/case_studies
+  examples: |
+    - Do you provide customer case studies?
+
+- intent: faq/tech_conferences
+  examples: |
+    - Do you attend tech conferences?
+
+- intent: faq/company_brochure
+  examples: |
+    - Can I get a company brochure?
+
+- intent: faq/press_kit
+  examples: |
+    - Do you have a press kit?
+
+- intent: faq/awards
+  examples: |
+    - Do you have awards or recognition?
+
+- intent: faq/demo_sessions
+  examples: |
+    - Do you provide demo sessions?
+
+- intent: faq/education_support
+  examples: |
+    - Do you support educational institutions?
+
+- intent: faq/company_values
+  examples: |
+    - What are your company values?
+
+- intent: faq/blogs
+  examples: |
+    - Do you provide technical blogs?
+
+- intent: faq/social_media
+  examples: |
+    - Are you on social media?
+
+- intent: faq/press_releases
+  examples: |
+    - Do you provide press releases?
+
+- intent: faq/affiliate
+  examples: |
+    - Can I join your affiliate program?
+
+- intent: faq/clients_count
+  examples: |
+    - How many clients do you serve?
+
+- intent: faq/testimonials
+  examples: |
+    - Do you offer customer testimonials?
